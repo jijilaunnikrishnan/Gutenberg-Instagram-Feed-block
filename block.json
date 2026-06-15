@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "custom/instagram-feed",
+    "title": "Instagram Feed",
+    "category": "widgets",
+    "icon": "instagram",
+    "description": "Display Instagram feed.",
+    "attributes": {
+        "profileUrl": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "editorScript": "file:./build/index.js",
+    "style": "file:./build/style.css"
+}
